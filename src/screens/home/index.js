@@ -5,12 +5,12 @@ import Grafico from "../../assets/grafico.png"
 import {useNavigation} from '@react-navigation/native';
 
 
-export const DetailsScreen = () => {
+export const Home = () => {
   const navigation = useNavigation();
   return (
     <>
       <View style={{ display: "flex", flexDirection: "row", alignItems: "baseline" }}>
-      <TouchableOpacity onPress={()=> navigation.navigate("Home")}>
+      <TouchableOpacity onPress={()=> navigation.navigate("Login")}>
             <Image style={{ width: 24, height: 24, marginLeft: 30, marginTop: 30 }} source={require('../../assets/icon01.png')} />
        </TouchableOpacity>
 

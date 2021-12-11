@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderColor: "#C0C0C0",
     fontSize: 20,
+    color:"black",
   }
 
 

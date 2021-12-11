@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import UselessTextInput from "../textInput/index";
+import UselessTextInput from "../../components/textInput";
 import Logo from "../../assets/logo.png"
 import MinhaClaro from "../../assets/minhaClaro.png"
 import Check from "../../assets/check.png"
@@ -8,14 +8,14 @@ import Seta from "../../assets/seta.png"
 import {useNavigation} from '@react-navigation/native';
 
 
-export const HomeScreen = () => {
+export const Login = () => {
     const navigation = useNavigation();
         return (
             <>
             <View>
                 <View style={{ backgroundColor: "#e43130", height: 40 }}>
-                    <Image style={{ width: "23%", height: "85%", marginTop: 2, marginBottom: 12 }} resizeMode='stretch' source={Logo} />
-                    <Image style={{ width: "45%", height: "87%", marginLeft:20 }} resizeMode='stretch' source={MinhaClaro} />
+                    <Image style={{ width: "23%", height: "85%", marginTop: 2, marginBottom: 12 }} resizeMode='stretch' source={Logo}/>
+                    <Image style={{ width: "45%", height: "87%", marginLeft:20 }} resizeMode='stretch' source={MinhaClaro}/>
                 </View>
                 <Text style={{ color: "black", fontWeight: "bold", marginLeft: 30, marginTop: 60, marginBottom:20 }}>Para acessar a Minha Claro, use seu e-mail:</Text>
                 <UselessTextInput />
@@ -24,7 +24,7 @@ export const HomeScreen = () => {
                     <Text style={{ color: "black", fontWeight: "bold", fontSize: 23, margin: 5 }}>Permanecer logado</Text>
                 </View>
                 <View style={{ alignItems:"center" }}>
-                    <TouchableOpacity style={styles.TOLogin} onPress={()=> navigation.navigate("Details")}>
+                    <TouchableOpacity style={styles.TOLogin} onPress={()=> navigation.navigate("Home")}>
                         <Text style={{ fontSize:20}}>ENTRAR</Text>
                         </TouchableOpacity>
                 </View>
