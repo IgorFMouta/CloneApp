@@ -1,9 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import { View, Text, Image, TouchableOpacity, Alert } from 'react-native';
 import UselessTextInput from "../../components/textInput";
 import Logo from "../../assets/logo.png"
 import MinhaClaro from "../../assets/minhaClaro.png"
-import Check from "../../assets/check.png"
 import Seta from "../../assets/seta.png"
 import { useNavigation } from '@react-navigation/native';
 import styles from "./styles"

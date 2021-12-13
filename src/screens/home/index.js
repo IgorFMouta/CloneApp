@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TouchableOpacity, Image, Alert, StyleSheet } from 'react-native'
+import { View, Text, TouchableOpacity, Image, Alert} from 'react-native'
 import Porcentagem from "../../assets/porcentagem.png"
 import Grafico from "../../assets/grafico.png"
 import { useNavigation } from '@react-navigation/native'
