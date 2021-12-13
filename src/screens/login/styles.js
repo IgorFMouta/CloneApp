@@ -16,6 +16,12 @@ const styles = StyleSheet.create({
         height: "87%",
         marginLeft: 20
     },
+    icon05: {
+        flexDirection: "row",
+        alignItems: "baseline",
+        backgroundColor:"black",
+
+      },
     text01: {
         color: "black",
         fontWeight: "bold",

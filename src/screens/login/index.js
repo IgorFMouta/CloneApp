@@ -6,6 +6,7 @@ import MinhaClaro from "../../assets/minhaClaro.png"
 import Seta from "../../assets/seta.png"
 import { useNavigation } from '@react-navigation/native';
 import styles from "./styles"
+import Icon05 from "../../assets/icon05.png"
 
 
 
@@ -16,6 +17,10 @@ export const Login = () => {
         return (
             <>
                 <View>
+                    <View styles= {{background: "black"}}>
+                        {/* <Image resizeMode='stretch' source={Icon05} />
+                        <Text styles= {{background: "black"}}>(24)99254 6784</Text> */}
+                    </View>
                     <View style={styles.vGeral}>
                         <Image style={styles.iLogo} resizeMode='stretch' source={Logo} />
                         <Image style={styles.iMinhaClaro} resizeMode='stretch' source={MinhaClaro} />
