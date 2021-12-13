@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Alert, View, SafeAreaView, StyleSheet, TextInput, Image, TouchableOpacity } from "react-native";
+import {Alert, View, SafeAreaView, TextInput, Image, TouchableOpacity } from "react-native";
 import styles from "./styles"
 
 const UselessTextInput = () => {
