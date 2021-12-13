@@ -1,5 +1,7 @@
 # CloneApp
 
-> ![Minha Claro](https://user-images.githubusercontent.com/89466547/145889788-c6ac37b9-e660-4099-9246-409d4f3394ea.png) 
-![Screenshot_20211210-164552](https://user-images.githubusercontent.com/89466547/145890485-574ce122-667d-42a5-822a-0586066cf2ad.png)
+![Screenshot_20211210-16455](https://user-images.githubusercontent.com/89466547/145905164-d599f37a-a222-4f9f-a9fb-23d41a9b5f8d.png)
+![Screenshot_20211210-164552](https://user-images.githubusercontent.com/89466547/145905166-30ef70b7-c7ca-4f6b-966d-827d3c99bb0e.png)
+https://user-images.githubusercontent.com/89466547/145905181-7316a8ec-9df1-4228-be12-5c7a751732f9.mp4
+
 
